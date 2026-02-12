@@ -82,57 +82,31 @@ npm run dev
 
 1. Login screen (before auth)
 
-```md
-![Login Screen](./screenshots/01-login.png)
-```
+
+<img width="1331" height="740" alt="image" src="https://github.com/user-attachments/assets/f184613d-d64d-4634-801b-2b93b370d0ee" />
+
 
 2. Google consent/auth flow
+<img width="1592" height="791" alt="image" src="https://github.com/user-attachments/assets/6ba24a84-161b-409b-96ac-abd09754bf8c" />
 
-```md
-![Google Auth](./screenshots/02-google-auth.png)
-```
+
+<img width="1479" height="770" alt="image" src="https://github.com/user-attachments/assets/2cd460f9-3541-41b7-a332-5020a207e817" />
+
 
 3. Logged-in home with profile button (top-right)
 
-```md
-![Home Logged In](./screenshots/03-home-logged-in.png)
-```
+<img width="1107" height="297" alt="image" src="https://github.com/user-attachments/assets/bc44ff3a-54ef-43ec-84b2-0a8f0bae5ade" />
 
 4. Add bookmark form + successful new bookmark shown instantly
+<img width="1010" height="831" alt="image" src="https://github.com/user-attachments/assets/93a58a3f-a3fb-41fb-a71f-a85cefb97fd8" />
 
-```md
-![Add Bookmark](./screenshots/04-add-bookmark.png)
-```
 
 5. Edit bookmark mode (inline title/url inputs)
+<img width="997" height="471" alt="image" src="https://github.com/user-attachments/assets/95b52c9d-e72f-405b-98ee-f24ec1f902ce" />
 
-```md
-![Edit Bookmark](./screenshots/05-edit-bookmark.png)
-```
+6. Log Out Button Click on Profile Button
+7. <img width="1056" height="385" alt="image" src="https://github.com/user-attachments/assets/fcd6b149-eab0-40a3-b53d-f653e5af27ac" />
 
-6. Delete bookmark action/result
-
-```md
-![Delete Bookmark](./screenshots/06-delete-bookmark.png)
-```
-
-7. Profile dropdown opened with sign out button
-
-```md
-![Profile Menu](./screenshots/07-profile-menu.png)
-```
-
-8. Realtime sync demo (same user in two tabs)
-
-```md
-![Realtime Sync](./screenshots/08-realtime-sync.png)
-```
-
-9. Privacy demo (different user cannot see other user's bookmarks)
-
-```md
-![Privacy Isolation](./screenshots/09-privacy-isolation.png)
-```
 
 ## Notes: Problems and Solutions
 
