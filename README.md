@@ -130,9 +130,3 @@ npm run dev
 - `middleware.ts` - Supabase auth session refresh middleware
 - `supabase/schema.sql` - table, RLS policies, trigger, realtime publication
 
-## Submission Checklist
-
-- [ ] Live Vercel URL
-- [ ] Public GitHub repository URL
-- [x] README with setup + problems/solutions
-- [ ] Screenshots added for all listed screens
