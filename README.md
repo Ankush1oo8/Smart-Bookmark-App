@@ -105,7 +105,7 @@ npm run dev
 <img width="997" height="471" alt="image" src="https://github.com/user-attachments/assets/95b52c9d-e72f-405b-98ee-f24ec1f902ce" />
 
 6. Log Out Button Click on Profile Button
-7. <img width="1056" height="385" alt="image" src="https://github.com/user-attachments/assets/fcd6b149-eab0-40a3-b53d-f653e5af27ac" />
+<img width="1056" height="385" alt="image" src="https://github.com/user-attachments/assets/fcd6b149-eab0-40a3-b53d-f653e5af27ac" />
 
 
 ## Notes: Problems and Solutions
