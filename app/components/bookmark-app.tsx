@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useCallback, useEffect, useMemo, useState } from "react";
+import Image from "next/image";
 import { createClient } from "@/lib/supabase-browser";
 import type { Database } from "@/lib/database.types";
 
@@ -206,10 +207,12 @@ export default function BookmarkApp() {
 
     const { data: insertedBookmark, error: insertError } = await supabase
       .from("bookmarks")
-      .insert({
-        title: title.trim(),
-        url: url.trim()
-      })
+      .insert(
+        {
+          title: title.trim(),
+          url: url.trim()
+        } as Database["public"]["Tables"]["bookmarks"]["Insert"]
+      )
       .select("*")
       .single();
 
@@ -318,7 +321,7 @@ export default function BookmarkApp() {
             className="surface inline-flex items-center gap-3 rounded-full px-3 py-2 text-left transition hover:shadow-md"
           >
             {profileAvatar ? (
-              <img src={profileAvatar} alt={profileName || "User"} className="h-9 w-9 rounded-full object-cover" />
+              <Image src={profileAvatar} alt={profileName || "User"} width={36} height={36} className="rounded-full object-cover" />
             ) : (
               <div className="flex h-9 w-9 items-center justify-center rounded-full bg-orange-200 text-sm font-semibold text-orange-900">
                 {(profileName || "U").slice(0, 1).toUpperCase()}
